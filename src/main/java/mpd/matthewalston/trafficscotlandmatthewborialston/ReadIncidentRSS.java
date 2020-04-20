@@ -29,7 +29,7 @@ import javax.xml.parsers.ParserConfigurationException;
 
 public class ReadIncidentRSS extends AsyncTask<Void,Void,Void> {
     Context context;
-    String address = "https://trafficscotland.org/rss/feeds/roadworks.aspx";
+    String address = "https://trafficscotland.org/rss/feeds/currentincidents.aspx";
     ProgressDialog progressDialog;
     ArrayList<FeedItem>feedItemsInc;
     RecyclerView recyclerView2;
